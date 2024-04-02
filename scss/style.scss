@@ -1,0 +1,66 @@
+@import url(../css/bootstrap.css);
+.bg{
+    background-color: #102039;
+}
+header{
+    .top-nav{
+        height:35px !important;
+    }
+  
+}
+
+#banner{
+    .card{
+       height: 410px;
+       max-height:450px;
+    }
+    .line{
+        height:2px;
+    }
+    .img-sec{
+        background-image: url('../images/Rectangle 5.png');
+        height: 553px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   
+}
+
+#img-sec{
+    .img-sec{
+        background-image: url('../images/image 6.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+#last-section{
+    div.col-lg-7{
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    div.col-lg-5{
+        .img-sec>img{
+            width:500px;
+            max-width: 100%;
+            height: 550px;
+        }
+    }
+}
+
+footer.second-last{
+    form{
+       border-radius: 0%;
+        .btn{
+            background-color: #de0e0e;
+            color: white;
+            border: none;
+         }
+    }
+}
+
+footer.last-footer{
+
+}
