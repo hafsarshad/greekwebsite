@@ -11,14 +11,14 @@ header .top-nav {
   height: 410px;
   max-height: 450px;
 }
+#banner .card .corner {
+  width: 104px;
+  height: 36px;
+  background-color: rgb(255, 255, 255);
+  border-bottom-right-radius: 10px;
+}
 #banner .line {
   height: 2px;
-}
-#banner .img-sec {
-  background-image: url("../images/Rectangle 5.png");
-  height: 553px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #img-sec .img-sec {
@@ -37,11 +37,12 @@ header .top-nav {
   height: 550px;
 }
 
-footer.second-last form {
+footer.second-last form > input {
   border-radius: 0%;
 }
 footer.second-last form .btn {
   background-color: #de0e0e;
   color: white;
-  border: none;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
 }

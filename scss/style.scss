@@ -13,15 +13,16 @@ header{
     .card{
        height: 410px;
        max-height:450px;
+       .corner{
+            width:104px;
+            height:36px;
+            background-color: rgb(255, 255, 255);
+            border-bottom-right-radius: 10px;
+      
+       }
     }
     .line{
         height:2px;
-    }
-    .img-sec{
-        background-image: url('../images/Rectangle 5.png');
-        height: 553px;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
    
 }
@@ -52,11 +53,14 @@ header{
 
 footer.second-last{
     form{
-       border-radius: 0%;
+     &>input{
+              border-radius: 0%;
+     }
         .btn{
             background-color: #de0e0e;
             color: white;
-            border: none;
+            border-top-left-radius: 0%;
+            border-bottom-left-radius: 0%;
          }
     }
 }
